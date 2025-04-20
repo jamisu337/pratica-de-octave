@@ -1,4 +1,4 @@
-% Questão 9 - Lê valores até o usuário parar e mostra média e percentuais
+%por algum motivo o programa esta aceitando j como o valor de 0
 
 positivos = 0;
 negativos = 0;
@@ -19,7 +19,7 @@ while true
     if isnan(valor)
         disp('Entrada inválida. Tente novamente.');
         continue;
-    endif
+    end
 
     soma += valor;
     total += 1;
@@ -28,7 +28,7 @@ while true
         positivos += 1;
     else
         negativos += 1;
-    endif
+    end
 end
 
 if total == 0

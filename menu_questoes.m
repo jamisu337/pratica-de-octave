@@ -13,6 +13,11 @@ while opcao ~= 0
     disp('7 - Soma de ímpares múltiplos de 3 até 500');
     disp('8 - 20 primeiros termos da sequência de Fibonacci');
     disp('9 - Estatísticas de valores digitados');
+    disp('10 - soma de sequencias 1');
+    disp('11 - soma de sequencias 2');
+    disp('12 - valor do numero π');
+    disp('13 - valor de e^x');
+    disp('14 - analisando os valores do seno de x');
     disp('0 - Sair');
 
     opcao = input('Escolha a questão que deseja testar: ');
@@ -45,6 +50,21 @@ while opcao ~= 0
         case 9
             clc;
             questao9;
+        case 10
+            clc;
+            questao10;
+        case 11
+            clc;
+            questao11;
+        case 12
+            clc;
+            questao12;
+        case 13
+            clc;
+            questao13;
+        case 14
+            clc;
+            questao14;
         case 0
             disp('Encerrando o programa...');
         otherwise

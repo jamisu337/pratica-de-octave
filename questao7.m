@@ -1,6 +1,6 @@
 soma = 0;
 
-for i = 1:2:499  % percorre apenas ímpares
+for i = 1:2:499
     if mod(i, 3) == 0
         soma += i;
     end
